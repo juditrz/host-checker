@@ -10,7 +10,7 @@ st.title("🛰️ Host Checker")
 
 # --- Input selection ---
 st.markdown("<br>", unsafe_allow_html=True)
-input_type = st.radio("Input method:", ["Upload .md file", "Upload .csv file", "Paste URLs manually"])
+input_type = st.radio("Input method:", ["Featured quotes file [.md]", "List of URLs [.csv]", "Enter URLs manually"])
 st.markdown("<br>", unsafe_allow_html=True)
 
 links_with_context = []
