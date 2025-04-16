@@ -1,0 +1,7 @@
+streamlit
+pandas
+requests
+dnspython
+beautifulsoup4
+openpyxl
+tqdm
