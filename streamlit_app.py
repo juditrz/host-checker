@@ -64,6 +64,6 @@ if links_with_context:
                 st.download_button(
                     label="💾 Download results",
                     data=tmp_excel.read(),
-                    file_name="hosting_report.xlsx",
+                    file_name="host_checker_results.xlsx",
                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 )
