@@ -29,7 +29,7 @@ if input_type == "Featured quotes file [.md]":
 
 # --- Option 2: CSV Upload ---
 elif input_type == "List of URLs [.csv]":
-    uploaded_csv = st.file_uploader("Upload a CSV file. Make sure it includes a URL column.", type=["csv"])
+    uploaded_csv = st.file_uploader("Upload a CSV file. The column containing the URLs must have a header called URL.", type=["csv"])
     if uploaded_csv:
         df = pd.read_csv(uploaded_csv)
         url_column = st.selectbox("Select the column containing URLs:", df.columns)
